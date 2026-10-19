@@ -6,3 +6,6 @@ b = float(input("Vnesi drugo stevilo: "))
 vsota = a + b
 
 print("Vsota je:", vsota)
+
+razlika = a - b
+print("Razlika je:", razlika)
