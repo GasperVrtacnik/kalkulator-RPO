@@ -9,3 +9,6 @@ print("Vsota je:", vsota)
 
 razlika = a - b
 print("Razlika je:", razlika)
+
+zmnozek = a * b
+print("Zmnozek je:", zmnozek)
