@@ -6,6 +6,7 @@ Preprost kalkulator v Pythonu za učenje Gita.
 
 - Seštevanje dveh števil
 - Odštevanje dveh števil
+- Množenje dveh števil
 
 ## Zagon
 
