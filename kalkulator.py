@@ -1,4 +1,4 @@
-print("Preprost kalkulator konflikt main")
+print("Kalkulator rešitev konflikta")
 
 a = float(input("Vnesi prvo stevilo: "))
 b = float(input("Vnesi drugo stevilo: "))
