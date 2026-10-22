@@ -11,3 +11,7 @@ Preprost kalkulator v Pythonu za učenje Gita.
 ## Zagon
 
 python3 kalkulator.py
+
+## Namen projekta
+
+Projekt je namenjen preizkusanju Git operacij.
