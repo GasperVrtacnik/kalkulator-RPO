@@ -1,0 +1,21 @@
+name: CI kalkulator
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  preverjanje:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Prenos kode
+        uses: actions/checkout@v6
+
+      - name: Preverjanje sintakse
+        run: python3 -m py_compile kalkulator.py
+
+      - name: Preverjanje zagona
+        run: printf '8\n2\n' | python3 kalkulator.py
